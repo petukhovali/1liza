@@ -24,12 +24,12 @@ nav ul li {
   margin-right: .01em;
   position: relative;
   padding: 1em 3em;
-  background-color: FFFF00;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   -ms-transition: all 0.2s;
   -o-transition: all 0.2s;
   transition: all 0.2s;
+  background-color: #FFFF00;
 }
 nav li a {
       padding-bottom: 1em;
@@ -43,7 +43,7 @@ nav li a {
       color: black; 
 }
 nav ul li:hover {
-background-color: FFFF00;  
+background-color: #BBBBBB;  
 }
 nav ul li ul {
   padding: 0;
@@ -64,7 +64,7 @@ nav ul li ul {
   -transition: opacity 0.2s;
 }
 nav ul li ul li { 
-  background-color: skyblue;
+  background-color: black;
   display: block; 
   color: #fffff0;
   text-shadow: 0 1px 0 #000; 
