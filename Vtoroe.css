@@ -26,10 +26,10 @@ nav ul li {
   padding: 1em 3em;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
-  -ms-transition: all 0.2s;
+  -ms-transition: all 0,2s;
   -o-transition: all 0.2s;
   transition: all 0.2s;
-  background-color: #FFFF00;
+  background: #6D2E94;
 }
 nav li a {
       padding-bottom: 1em;
@@ -39,11 +39,11 @@ nav li a {
       padding: 21px;
       text-decoration: none;
       font-weight: bold;
-      font-family: Consolas, monaco, monospace;
-      color: black; 
+      font-family: Arial;
+      color: #FFFAFA; 
 }
 nav ul li:hover {
-background-color: #BBBBBB;  
+  background-color: #B583D4;
 }
 nav ul li ul {
   padding: 0;
@@ -64,15 +64,14 @@ nav ul li ul {
   -transition: opacity 0.2s;
 }
 nav ul li ul li { 
-  background-color: black;
+  background-color: #B583D4;
   display: block; 
-  color: #fffff0;
+  color: #ffffff;
   text-shadow: 0 1px 0 #000; 
 }
 nav ul li ul li:hover { 
-background-color: fffff0;
+background-color: #8F5EAD;
 }
-
 nav ul li:hover ul {
   display: block;
   opacity: 1;
